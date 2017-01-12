@@ -31,6 +31,9 @@ body {
 .upper {
   text-transform: uppercase;
 }
+.capitalize {
+  text-transform: capitalize;
+}
 .perHalf {
   width: 49%;
 }
@@ -384,4 +387,144 @@ body {
 }
 .nonMarginWrapper {
   margin-bottom: 0 !important;
+}
+.productInnerBanner img {
+  width: 100%;
+  display: block;
+}
+.innerProductContent {
+  margin-top: 20px;
+}
+.innerProductContent .imageBlock {
+  width: 290px;
+}
+.innerProductContent .imageBlock .mainPic {
+  height: 290px;
+  margin-bottom: 10px;
+}
+.innerProductContent .imageBlock .littleImages img {
+  display: block;
+  float: left;
+  cursor: pointer;
+  width: 23%;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+.innerProductContent .descriptionBlock {
+  width: calc(100% - 290px);
+  width: -webkit-calc(100% - 290px);
+  width: -moz-calc(100% - 290px);
+  padding: 0 0 0 20px;
+}
+.innerProductContent .descriptionBlock .productName {
+  font: 16px/22px 'RobotoMedium';
+  color: #121212;
+}
+.innerProductContent .descriptionBlock .productRate {
+  margin-top: 10px;
+}
+.innerProductContent .descriptionBlock .productRate .stars {
+  display: inline-block;
+  vertical-align: top;
+}
+.innerProductContent .descriptionBlock .productRate .stars .fa-star {
+  color: #828282;
+  line-height: 24px;
+  height: 24px;
+  display: inline-block;
+  font-size: 18px;
+}
+.innerProductContent .descriptionBlock .productRate .stars .fa-star.active {
+  color: #f07c00;
+}
+.innerProductContent .descriptionBlock .productRate .rateNumbers {
+  vertical-align: top;
+  margin: 0 0 0 10px;
+  font: 12px/24px 'Roboto';
+  color: #121212;
+  display: inline-block;
+}
+.innerProductContent .descriptionBlock .price {
+  font: 30px/30px 'RobotoBold';
+  color: #0064de;
+  margin: 25px 0 20px;
+}
+.innerProductContent .descriptionBlock .buy {
+  margin-bottom: 20px;
+}
+.innerProductContent .descriptionBlock .buy .customBtn {
+  display: inline-block;
+  padding: 0 25px;
+}
+.innerProductContent .descriptionBlock .descriptionSmall {
+  font: 12px/14px 'Roboto';
+  color: #494949;
+}
+.innerProductContent .descriptionBlock .tagBlock {
+  margin-top: 10px;
+  font: 14px/35px 'RobotoMedium';
+  color: #494949;
+}
+.innerProductContent .descriptionBlock .tagBlock span {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  color: #ff0101;
+  border: 1px solid #ff0101;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.innerProductContent .descriptionBlock .labelBlock {
+  margin-top: 15px;
+}
+.innerBlockMainDescription {
+  margin-top: 20px;
+}
+.innerBlockMainDescription .descriptionItem .descriptionTitle {
+  font: 16px/44px 'RobotoBold';
+  color: #ffffff;
+  background: #0064de;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent {
+  padding: 15px;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent p {
+  font: 14px/18px 'Roboto';
+  margin-bottom: 15px;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent p img {
+  float: left;
+  margin: 0 20px 15px 0;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent b {
+  font: 14px/18px 'RobotoBold';
+  font-weight: normal;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent span {
+  text-transform: uppercase;
+  color: #0064de;
+  font: 14px/18px 'RobotoBold';
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent .descriptionTable table {
+  width: 100%;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent .descriptionTable table tr td {
+  font: 14px/16px 'Roboto';
+  color: #444444;
+  padding: 10px 15px;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent .descriptionTable table tr td:nth-child(1) {
+  text-align: left;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent .descriptionTable table tr td:nth-child(2) {
+  text-align: right;
+}
+.innerBlockMainDescription .descriptionItem .descriptionContent .descriptionTable table tr:nth-child(odd) td {
+  background: #f8f8f8;
 }

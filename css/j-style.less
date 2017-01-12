@@ -31,6 +31,9 @@ body{
 .upper{
   text-transform: uppercase;
 }
+.capitalize{
+  text-transform: capitalize;
+}
 .perHalf{
   width: 49%;
 }
@@ -395,4 +398,156 @@ body{
 }
 .nonMarginWrapper{
   margin-bottom: 0 !important;
+}
+.productInnerBanner{
+  img{
+    width: 100%;
+    display: block;
+  }
+}
+.innerProductContent{
+  margin-top: 20px;
+  .imageBlock{
+    width: 290px;
+    .mainPic{
+      height: 290px;
+      margin-bottom: 10px;
+    }
+    .littleImages{
+      img{
+        display: block;
+        float: left;
+        cursor: pointer;
+        width: 23%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .descriptionBlock{
+    width: ~'calc(100% - 290px)';
+    width: ~'-webkit-calc(100% - 290px)';
+    width: ~'-moz-calc(100% - 290px)';
+    padding: 0 0 0 20px;
+    .productName{
+      font: 16px/22px 'RobotoMedium';
+      color: #121212;
+    }
+    .productRate{
+      margin-top: 10px;
+      .stars{
+        display: inline-block;
+        vertical-align: top;
+        .fa-star{
+          color: #828282;
+          line-height: 24px;
+          height: 24px;
+          display: inline-block;
+          font-size: 18px;
+          &.active{
+            color: #f07c00;
+          }
+        }
+      }
+      .rateNumbers{
+        vertical-align: top;
+        margin: 0 0 0 10px;
+        font: 12px/24px 'Roboto';
+        color: #121212;
+        display: inline-block;
+      }
+    }
+    .price{
+      font: 30px/30px 'RobotoBold';
+      color: #0064de;
+      margin: 25px 0 20px;
+    }
+    .buy{
+      margin-bottom: 20px;
+      .customBtn{
+        display: inline-block;
+        padding: 0 25px;
+      }
+    }
+    .descriptionSmall{
+      font: 12px/14px 'Roboto';
+      color: #494949;
+    }
+    .tagBlock{
+      margin-top: 10px;
+      font: 14px/35px 'RobotoMedium';
+      color: #494949;
+      span{
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        color: #ff0101;
+        border: 1px solid #ff0101;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        display: block;
+        float: left;
+        margin-right: 10px;
+      }
+    }
+    .labelBlock{
+      margin-top: 15px;
+    }
+  }
+}
+.innerBlockMainDescription{
+  margin-top: 20px;
+  .descriptionItem{
+    .descriptionTitle{
+      font: 16px/44px 'RobotoBold';
+      color: #ffffff;
+      background: #0064de;
+      padding: 0 15px;
+      text-transform: uppercase;
+    }
+    .descriptionContent{
+      padding: 15px;
+      p{
+        font: 14px/18px 'Roboto';
+        margin-bottom: 15px;
+        img{
+          float: left;
+          margin: 0 20px 15px 0;
+        }
+      }
+      b{
+        font: 14px/18px 'RobotoBold';
+        font-weight: normal;
+      }
+      span{
+        text-transform: uppercase;
+        color: #0064de;
+        font: 14px/18px 'RobotoBold';
+      }
+      .descriptionTable{
+        table{
+          width: 100%;
+          tr{
+            td{
+              font: 14px/16px 'Roboto';
+              color: #444444;
+              padding: 10px 15px;
+              &:nth-child(1){
+                text-align: left;
+              }
+              &:nth-child(2){
+                text-align: right;
+              }
+            }
+            &:nth-child(odd){
+              td{
+                background: #f8f8f8;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
