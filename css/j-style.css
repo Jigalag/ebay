@@ -546,6 +546,7 @@ body {
   height: 55px;
   border-right: none;
   position: relative;
+  cursor: pointer;
 }
 .header .header__menu > ul > li:hover,
 .header .header__menu > ul > li.active {
@@ -592,7 +593,12 @@ body {
   margin: 0 0 7px 0;
   height: auto;
   color: #494949;
+  font: 14px/20px 'RobotoMedium';
   border: none;
+}
+.header .header__menu .mainSubMenu li a {
+  text-decoration: none;
+  color: #494949;
   font: 14px/20px 'RobotoMedium';
 }
 .header .header__menu .mainSubMenu li:before {
