@@ -547,6 +547,14 @@ body {
   border-right: none;
   position: relative;
 }
+.header .header__menu > ul > li:hover,
+.header .header__menu > ul > li.active {
+  background: #ffffff;
+}
+.header .header__menu > ul > li:hover a,
+.header .header__menu > ul > li.active a {
+  color: #f07c00;
+}
 .header .header__menu > ul > li:before {
   left: 0;
   top: 9px;
