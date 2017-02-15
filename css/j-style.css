@@ -528,3 +528,65 @@ body {
 .innerBlockMainDescription .descriptionItem .descriptionContent .descriptionTable table tr:nth-child(odd) td {
   background: #f8f8f8;
 }
+.header .header__menu {
+  padding: 0;
+  position: relative;
+}
+.header .header__menu > ul {
+  overflow: visible;
+}
+.header .header__menu > ul:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.header .header__menu > ul > li {
+  padding: 13px 17px 13px 18px;
+  margin: 0;
+  height: 55px;
+  border-right: none;
+  position: relative;
+}
+.header .header__menu > ul > li:before {
+  left: 0;
+  top: 9px;
+  height: 36px;
+  width: 1px;
+  content: '';
+  position: absolute;
+  background: #f6b36b;
+}
+.header .header__menu > ul > li:first-child:before {
+  display: none;
+}
+.header .header__menu .clickSubMenu {
+  display: none;
+}
+.header .header__menu .mainSubMenu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  z-index: 99;
+  background: #ffffff;
+  -webkit-box-shadow: 0 5px 5px  0 #444;
+  -moz-box-shadow: 0 5px 5px 0 #444;
+  box-shadow: 0 5px  5px 0 #444;
+}
+.header .header__menu .mainSubMenu ul {
+  padding: 20px;
+}
+.header .header__menu .mainSubMenu li {
+  float: left;
+  width: 33%;
+  text-align: left;
+  padding: 0;
+  margin: 0 0 7px 0;
+  height: auto;
+  color: #494949;
+  border: none;
+  font: 14px/20px 'RobotoMedium';
+}
+.header .header__menu .mainSubMenu li:before {
+  display: none;
+}
