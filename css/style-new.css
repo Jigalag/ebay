@@ -164,3 +164,181 @@
 .categoriesHoverList .categoryHoverItem.opened .categoryHoverTitle {
   z-index: 2;
 }
+.paddingContent {
+  padding: 25px 15px !important;
+}
+.stepTitle {
+  color: #414141;
+  font: 18px 'Roboto';
+  font-weight: bold;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.stepTitle.simpleTitle {
+  font-weight: normal;
+}
+.stepTitle.blueStepTitle {
+  color: #0067d7;
+}
+.stepTextSimple {
+  float: left;
+  width: 100%;
+  color: #414141;
+  font: 14px 'Roboto';
+  text-align: center;
+}
+.stepLink {
+  float: left;
+  width: 100%;
+  color: #0067d7;
+  font: 14px 'Roboto';
+  text-align: center;
+  text-decoration: none;
+}
+.stepsWrapper {
+  float: left;
+  width: 100%;
+  margin: 25px 0 35px;
+}
+.stepsWrapper .stepItem {
+  float: left;
+  width: 20%;
+}
+.stepsWrapper .stepItem .stepImage {
+  float: left;
+  width: 100%;
+  height: 95px;
+  text-align: center;
+}
+.stepsWrapper .stepItem .stepImage .imageWrapper {
+  position: relative;
+  display: inline-block;
+  height: 95px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.stepsWrapper .stepItem .stepImage .imageWrapper img {
+  opacity: 0;
+}
+.stepsWrapper .stepItem .stepImage .imageWrapper .stepNumber {
+  position: absolute;
+  font: 60px/20px 'Roboto';
+  font-weight: bold;
+  color: #808080;
+  opacity: 0.4;
+  left: -15px;
+  top: 0;
+}
+.stepsWrapper .stepItem .stepText {
+  float: left;
+  width: 100%;
+  font: 16px 'Roboto';
+  color: #808080;
+  text-align: center;
+  margin-top: 20px;
+}
+.stepsWrapper .stepItem:last-child .stepText {
+  text-transform: uppercase;
+}
+.stepsWrapper.stepsFour {
+  padding: 0 50px;
+  margin: 40px 0;
+}
+.stepsWrapper.stepsFour .stepItem {
+  float: left;
+  width: 25%;
+}
+.stepsWrapper.stepsFour .stepItem:last-child .stepText {
+  text-transform: none;
+}
+.stepsWrapper.stepsFour .stepTitle {
+  margin-bottom: 30px;
+}
+.linksBlock {
+  float: left;
+  width: 100%;
+  margin: 20px 0 40px;
+  padding: 30px 0;
+  border: 1px solid #e8e8e8;
+}
+.linksBlock .halfBlock {
+  margin-top: 30px;
+  float: left;
+  width: 50%;
+}
+.linksBlock .halfBlock.textRight {
+  padding-right: 50px;
+}
+.linksBlock .halfBlock.textRight img,
+.linksBlock .halfBlock.textRight span {
+  float: left;
+}
+.linksBlock .halfBlock.textLeft {
+  padding-left: 50px;
+}
+.linksBlock .halfBlock.textLeft img,
+.linksBlock .halfBlock.textLeft span {
+  float: right;
+}
+.linksBlock .halfBlock a {
+  display: inline-block;
+  color: #414141 !important;
+}
+.linksBlock .halfBlock a img,
+.linksBlock .halfBlock a span {
+  margin: 0 10px;
+  color: #414141 !important;
+  text-transform: none !important;
+  font: 14px/46px 'Roboto' !important;
+  height: 46px;
+}
+.imageList {
+  float: left;
+  width: 100%;
+  padding: 30px 0 30px;
+}
+.imageList .imageColumn {
+  width: calc(50% - 135px);
+  float: left;
+}
+.imageList .imageColumn .columnItem {
+  position: relative;
+  float: left;
+  font: 14px 'Roboto';
+  color: #414141;
+}
+.imageList .imageColumn .columnItem img {
+  position: absolute;
+  top: 0;
+}
+.imageList .imageColumn.leftColumn .columnItem {
+  padding: 0 55px 0 5px;
+  text-align: right;
+}
+.imageList .imageColumn.leftColumn .columnItem img {
+  right: 0;
+}
+.imageList .imageColumn.rightColumn .columnItem {
+  padding: 0 5px 0 55px;
+  text-align: left;
+}
+.imageList .imageColumn.rightColumn .columnItem img {
+  left: 0;
+}
+.imageList .imageColumn.centerColumn {
+  width: 270px;
+}
+.imageList .imageColumn.centerColumn img {
+  display: block;
+  margin: 75px auto;
+}
+.greySection {
+  background: #f6f6f6;
+  padding: 30px 0;
+  float: left;
+  width: 100%;
+}
+.greySection .stepTitle {
+  margin-bottom: 10px;
+}
